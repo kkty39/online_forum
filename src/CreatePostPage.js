@@ -41,7 +41,7 @@ class CreatePostPage extends React.Component {
   createPost() {
     if (!this.state.title || !this.state.content) {
       this.setState({
-          error: "The title and content are required. "
+        error: "Please fill the Title and Content."
       })
       return;
     }
